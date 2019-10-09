@@ -56,7 +56,7 @@ def get_playable_podcast2(soup2):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://i1.sndcdn.com/avatars-000603649899-cbhsim-large.jpg",
+                'thumbnail': "https://i1.sndcdn.com/avatars-000603649899-cbhsim-original.jpg",
         }
         subjects.append(item)
     return subjects

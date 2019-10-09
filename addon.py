@@ -11,9 +11,9 @@ def main_menu():
             'path': plugin.url_for('episodes1'),
             'thumbnail': "https://is2-ssl.mzstatic.com/image/thumb/Podcasts123/v4/31/78/f2/3178f2e0-a891-be97-5b42-6e4d1be9eaa8/mza_2420023509840306341.jpeg/600x600bb.jpg"},
         {
-            'label': plugin.get_string(30000),
-            'path': plugin.url_for('episodes'),
-            'thumbnail': "https://i1.sndcdn.com/avatars-000603649899-cbhsim-large.jpg"},
+            'label': plugin.get_string(30002),
+            'path': plugin.url_for('episodes2'),
+            'thumbnail': "https://i1.sndcdn.com/avatars-000603649899-cbhsim-original.jpg"},
     ]
     return items
 @plugin.route('/episodes1/')
